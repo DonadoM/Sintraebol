@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SINTRAEBOL - Sindicato de trabajadores de la empresa ARA del departamento de Bolívar">
+    <title>SINTRAEBOL - Blog Sindical</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Navegación principal">
+            <a href="#" class="logo-container" aria-label="Ir a inicio">
+                <img src="Logo.jpeg" alt="Logo SINTRAEBOL" class="logo-img">
+                <span class="logo-text">SINTRAEBOL</span>
+            </a>
+
+            <ul class="dropdown-menu" id="navDropdown">
+                <li>
+                    <button 
+                        class="dropdown-button" 
+                        aria-expanded="false" 
+                        aria-controls="dropdownContent"
+                        aria-label="Menú de documentos">
+                        <span>Documentos</span>
+                        <span class="dropdown-icon" id="dropdownIcon" aria-hidden="true">▼</span>
+                    </button>
+                    <div class="dropdown-content" id="dropdownContent" role="menu">
+                        <a href="#actas-laborales" role="menuitem">Actas y Temas Laborales</a>
+                        <a href="#estatutos" role="menuitem">Estatutos del Sindicato</a>
+                        <a href="#comparacion" role="menuitem">Comparación Legislativa</a>
+                        <a href="#junta-directiva" role="menuitem">Junta Directiva</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Video -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 id="hero-heading" class="hero-title">Unidos por tus Derechos Laborales</h1>
+                    <p class="hero-subtitle">
+                        SINTRAEBOL representa a los trabajadores de ARA en Bolívar, 
+                        defendiendo condiciones laborales justas, salarios dignos y un futuro mejor para todos.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="250">0</span>
+                            <span class="stat-label">Afiliados Activos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="11">0</span>
+                            <span class="stat-label">Años de Lucha</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">Beneficios Logrados</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-video-container">
+                    <img src="Empleados.jpg" alt="Empleados de ARA">
+                </div>
+            </div>
+        </section>
+
+        <h1 class="main-title">Sindicato de trabajadores de la empresa ARA del departamento de Bolívar</h1>
+        <p class="main-subtitle">
+            Comprometidos con la defensa de los derechos laborales y el bienestar de todos los trabajadores de ARA
+        </p>
+
+        <!-- Info Cards Section -->
+        <section class="info-section" aria-labelledby="info-heading">
+            <h2 id="info-heading">¿Por qué afiliarse a SINTRAEBOL?</h2>
+            <p class="section-intro">
+                Nuestro sindicato ofrece protección, representación y beneficios exclusivos para todos los 
+                trabajadores de ARA en el departamento de Bolívar.
+            </p>
+            <div class="info-grid">
+                <article class="info-card">
+                    <span class="info-icon">🛡️</span>
+                    <h3>Protección Laboral</h3>
+                    <p>
+                        Te respaldamos en casos de conflictos laborales, despidos injustificados, 
+                        y cualquier vulneración de tus derechos. Contarás con asesoría legal 
+                        especializada y representación sindical.
+                    </p>
+                </article>
+                
+                <article class="info-card">
+                    <span class="info-icon">💰</span>
+                    <h3>Mejores Condiciones</h3>
+                    <p>
+                        Negociamos colectivamente aumentos salariales, bonificaciones, 
+                        prestaciones sociales y beneficios adicionales que mejoran tu calidad 
+                        de vida y la de tu familia.
+                    </p>
+                </article>
+                
+                <article class="info-card">
+                    <span class="info-icon">🤝</span>
+                    <h3>Solidaridad y Apoyo</h3>
+                    <p>
+                        Formamos una comunidad unida donde todos nos apoyamos mutuamente. 
+                        Organizamos eventos, capacitaciones y actividades que fortalecen 
+                        nuestros lazos como compañeros.
+                    </p>
+                </article>
+                
+                <article class="info-card">
+                    <span class="info-icon">📚</span>
+                    <h3>Formación Continua</h3>
+                    <p>
+                        Ofrecemos talleres sobre derechos laborales, liderazgo sindical, 
+                        y desarrollo personal. Invertimos en tu crecimiento profesional 
+                        y personal.
+                    </p>
+                </article>
+                
+                <article class="info-card">
+                    <span class="info-icon">⚖️</span>
+                    <h3>Representación Legal</h3>
+                    <p>
+                        Disponemos de un equipo jurídico que vela por el cumplimiento 
+                        de las leyes laborales y te representa ante cualquier instancia 
+                        legal o administrativa.
+                    </p>
+                </article>
+                
+                <article class="info-card">
+                    <span class="info-icon">🎯</span>
+                    <h3>Voz y Participación</h3>
+                    <p>
+                        Tus opiniones cuentan. Participas activamente en las decisiones 
+                        del sindicato a través de asambleas, votaciones y propuestas 
+                        que benefician a todos.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Mission and Values Section -->
+        <section class="mission-section" aria-labelledby="mission-heading">
+            <div class="mission-container">
+                <h2 id="mission-heading">Nuestra Misión y Valores</h2>
+                
+                <div class="mission-content">
+                    <p class="mission-text">
+                        "Trabajamos incansablemente para garantizar condiciones laborales dignas, 
+                        salarios justos y el respeto a los derechos fundamentales de todos los 
+                        trabajadores de ARA en el departamento de Bolívar, promoviendo la unidad, 
+                        la solidaridad y el progreso colectivo."
+                    </p>
+                    
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <span class="value-icon">💪</span>
+                            <h4>Unidad</h4>
+                            <p>Juntos somos más fuertes. La unión hace la fuerza en la defensa de nuestros derechos.</p>
+                        </div>
+                        
+                        <div class="value-item">
+                            <span class="value-icon">⚖️</span>
+                            <h4>Justicia</h4>
+                            <p>Luchamos por la equidad y el trato justo para todos los trabajadores sin excepción.</p>
+                        </div>
+                        
+                        <div class="value-item">
+                            <span class="value-icon">🤝</span>
+                            <h4>Solidaridad</h4>
+                            <p>Nos apoyamos mutuamente en los momentos difíciles y celebramos juntos los logros.</p>
+                        </div>
+                        
+                        <div class="value-item">
+                            <span class="value-icon">🎓</span>
+                            <h4>Transparencia</h4>
+                            <p>Actuamos con honestidad y claridad en todas nuestras gestiones y decisiones.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PDF Sections -->
+        <section id="actas-laborales" class="pdf-section" aria-labelledby="actas-heading">
+            <h2 id="actas-heading">Actas y Temas Laborales</h2>
+            <p class="section-intro">
+                Consulta las actas oficiales de nuestras asambleas y los documentos clave sobre 
+                legislación laboral que protegen tus derechos como trabajador. Mantente informado 
+                sobre las decisiones y logros de nuestro sindicato.
+            </p>
+            <div class="pdf-grid">
+                <article class="pdf-card">
+                    <h3>Acta de Asamblea</h3>
+                    <embed src="SINTRAEBOL (1).pdf" type="application/pdf" class="pdf-viewer" aria-label="Visor PDF Acta de Asamblea">
+                    <p class="pdf-description">
+                        Acta oficial de la última asamblea general donde se discutieron 
+                        temas importantes sobre negociaciones colectivas, beneficios y 
+                        próximas acciones del sindicato.
+                    </p>
+                    <a href="SINTRAEBOL (1).pdf" download="Acta_Asamblea_SINTRAEBOL.pdf" class="btn">
+                        📥 Descargar Acta
+                    </a>
+                </article>
+                
+                <article class="pdf-card">
+                    <h3>Aspectos Laborales Clave</h3>
+                    <embed src="LABORAL.pdf" type="application/pdf" class="pdf-viewer" aria-label="Visor PDF Temas Laborales">
+                    <p class="pdf-description">
+                        Documento detallado sobre legislación laboral colombiana, derechos 
+                        del trabajador, prestaciones sociales y procedimientos legales que 
+                        debes conocer.
+                    </p>
+                    <a href="LABORAL.pdf" download="LABORAL.pdf" class="btn">
+                        📥 Descargar PDF Laboral
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="estatutos" class="pdf-section" aria-labelledby="estatutos-heading">
+            <h2 id="estatutos-heading">Estatutos del Sindicato</h2>
+            <p class="section-intro">
+                Los estatutos de SINTRAEBOL definen nuestra estructura organizativa, 
+                derechos y deberes de los afiliados, y los procedimientos para la toma 
+                de decisiones. Son la base legal que rige nuestro funcionamiento democrático.
+            </p>
+            <div class="pdf-content">
+                <embed src="Estatutos de Sintraebol.pdf" type="application/pdf" class="pdf-viewer" aria-label="Visor PDF Estatutos">
+                <a href="Estatutos de Sintraebol.pdf" download="Estatutos_SINTRAEBOL.pdf" class="btn">
+                    📥 Descargar Estatutos
+                </a>
+            </div>
+        </section>
+
+        <section id="comparacion" class="pdf-section" aria-labelledby="comparacion-heading">
+            <h2 id="comparacion-heading">Comparación Legislativa</h2>
+            <p class="section-intro">
+                Análisis comparativo de la legislación laboral actual frente a propuestas 
+                de reforma. Entiende cómo los cambios legales pueden afectar tus derechos 
+                y condiciones de trabajo, y por qué es importante mantenerse informado.
+            </p>
+            <div class="pdf-content">
+                <embed src="COMPARACION LEGISLATIVA.pdf" type="application/pdf" class="pdf-viewer" aria-label="Visor PDF Comparación Legislativa">
+                <a href="COMPARACION LEGISLATIVA.pdf" download="COMPARACION_LEGISLATIVA.pdf" class="btn">
+                    📥 Descargar Comparación
+                </a>
+            </div>
+        </section>
+
+        <section id="junta-directiva" aria-labelledby="junta-heading">
+            <h2 id="junta-heading">Nuestra Junta Directiva</h2>
+            <p class="section-intro">
+                Conoce al equipo comprometido que lidera SINTRAEBOL. Nuestros representantes 
+                trabajan día a día para defender tus intereses y mejorar las condiciones 
+                laborales de todos los afiliados.
+            </p>
+            <div class="junta-container">
+                <div class="junta-photo">
+                    <div class="junta-photo-frame">
+                        <img src="junta.jpeg" alt="Foto de la Junta Directiva de SINTRAEBOL">
+                    </div>
+                    <p class="junta-caption">El equipo de trabajo por tus derechos</p>
+                </div>
+                
+                <div class="junta-info">
+                    <ul class="junta-list">
+                        <li>
+                            <strong>Presidente</strong>
+                            <span>Laura Andrea López Castaño</span>
+                        </li>
+                        <li>
+                            <strong>Vicepresidente</strong>
+                            <span>Luis Camilo Salcedo Estrada</span>
+                        </li>
+                        <li>
+                            <strong>Secretario</strong>
+                            <span>Julián Moreno Canoles</span>
+                        </li>
+                        <li>
+                            <strong>Secretaria General</strong>
+                            <span>Valeria Sofía Barreto San Martín</span>
+                        </li>
+                        <li>
+                            <strong>Secretaria de Organización</strong>
+                            <span>Mariana Patricia Taborda Barrios</span>
+                        </li>
+                        <li>
+                            <strong>Secretaria de Finanzas</strong>
+                            <span>Ariana Lucia Cequeira</span>
+                        </li>
+                        <li>
+                            <strong>Secretaría de Reclamos</strong>
+                            <span>Maryangelis Jiménez Frias</span>
+                        </li>
+                        <li>
+                            <strong>Secretaria de Actas de Correspondencia</strong>
+                            <span>Ingris Gómez Yepez</span>
+                        </li>
+                        <li>
+                            <strong>Secretario de Formación y Doctrina</strong>
+                            <span>Juan David Barrios</span>
+                        </li>
+                        <li>
+                            <strong>Secretario de Cultura</strong>
+                            <span>Miguel Martínez</span>
+                        </li>
+                        <li>
+                            <strong>Primer Vocal</strong>
+                            <span>Ariana Acosta Vergara</span>
+                        </li>
+                        <li>
+                            <strong>Segundo Vocal</strong>
+                            <span>Eduardo Naranjo</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><strong>Email:</strong> <a href="mailto:contacto@sintraebol.org">contacto@sintraebol.org</a></p>
+                <p><strong>Teléfono:</strong> <a href="tel:+573001234567">+57 300 123 4567</a></p>
+                <p><strong>Ubicación:</strong> Cartagena, Bolívar - Colombia</p>
+            </div>
+                        
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <p><a href="#actas-laborales">Actas y Laboral</a></p>
+                <p><a href="#estatutos">Estatutos</a></p>
+                <p><a href="#comparacion">Comparación Legislativa</a></p>
+                <p><a href="#junta-directiva">Junta Directiva</a></p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <a href="#" aria-label="Instagram">📸</a>
+                    <a href="#" aria-label="WhatsApp">💬</a>
+                </div>
+            </div>
+        </div>
+        
+        <p class="copyright">&copy; 2025 SINTRAEBOL - Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // ========================================
+        // 📱 DROPDOWN MENU FUNCTIONALITY
+        // ========================================
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownMenu = document.getElementById('navDropdown');
+            const dropdownButton = dropdownMenu.querySelector('.dropdown-button');
+            const dropdownContent = document.getElementById('dropdownContent');
+            const dropdownIcon = document.getElementById('dropdownIcon');
+
+            function toggleDropdown() {
+                const isActive = dropdownMenu.classList.toggle('active');
+                dropdownButton.setAttribute('aria-expanded', isActive);
+                dropdownIcon.textContent = isActive ? '▲' : '▼';
+            }
+
+            dropdownButton.addEventListener('click', function(e) {
+                e.stopPropagation();
+                toggleDropdown();
+            });
+
+            window.addEventListener('click', function(e) {
+                if (!dropdownMenu.contains(e.target) && dropdownMenu.classList.contains('active')) {
+                    toggleDropdown();
+                }
+            });
+
+            dropdownContent.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', function() {
+                    if (dropdownMenu.classList.contains('active')) {
+                        toggleDropdown();
+                    }
+                });
+            });
+
+            // ========================================
+            // 🎬 VIDEO PLAYER FUNCTIONALITY
+            // ========================================
+            const playButton = document.getElementById('playButton');
+            const videoPlaceholder = document.getElementById('videoPlaceholder');
+            const heroVideo = document.getElementById('heroVideo');
+
+            if (playButton && videoPlaceholder && heroVideo) {
+                playButton.addEventListener('click', function() {
+                    videoPlaceholder.style.display = 'none';
+                    heroVideo.style.display = 'block';
+                    heroVideo.play();
+                });
+
+                // Show placeholder again when video ends
+                heroVideo.addEventListener('ended', function() {
+                    heroVideo.style.display = 'none';
+                    videoPlaceholder.style.display = 'flex';
+                });
+            }
+
+            // ========================================
+            // 🔢 ANIMATED COUNTER FOR STATS
+            // ========================================
+            const observerOptions = {
+                threshold: 0.5,
+                rootMargin: '0px 0px -100px 0px'
+            };
+
+            const animateCounter = (element) => {
+                const target = parseInt(element.getAttribute('data-target'));
+                const duration = 2000; // 2 seconds
+                const increment = target / (duration / 16); // 60 FPS
+                let current = 0;
+
+                const updateCounter = () => {
+                    current += increment;
+                    if (current < target) {
+                        element.textContent = Math.floor(current);
+                        requestAnimationFrame(updateCounter);
+                    } else {
+                        element.textContent = target + '+';
+                    }
+                };
+
+                updateCounter();
+            };
+
+            const statsObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && entry.target.textContent === '0') {
+                        animateCounter(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.stat-number').forEach(stat => {
+                statsObserver.observe(stat);
+            });
+
+            // ========================================
+            // ♿ ACCESSIBILITY: SMOOTH SCROLL OFFSET
+            // ========================================
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#') {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            const headerOffset = 90;
+                            const elementPosition = target.getBoundingClientRect().top;
+                            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                            window.scrollTo({
+                                top: offsetPosition,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            });
+
+            // ========================================
+            // 🎨 SCROLL ANIMATIONS FOR CARDS
+            // ========================================
+            const cardObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.info-card, .value-item, .pdf-card').forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                cardObserver.observe(card);
+            });
+        });
+    </script>
+</body>
+</html>
